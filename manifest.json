@@ -1,0 +1,15 @@
+{
+"manifest_version": 3,
+"name": "Aquarium New Tab",
+"version": "1.0.0",
+"description": "Biến trang Tab Mới thành bể cá tương tác.",
+"chrome_url_overrides": {
+"newtab": "newtab/index.html"
+},
+"permissions": [
+"storage"
+],
+"action": {
+"default_title": "Cài đặt bể cá"
+}
+}
